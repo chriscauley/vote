@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "rm -rf docs;yarn parcel build index.html -d docs --public-url /vote/",
     "develop": "parcel index.html -p 1199"
   },
   "dependencies": {
