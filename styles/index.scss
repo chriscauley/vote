@@ -1,0 +1,217 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+  min-height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#intro {
+  background: black;
+  padding: 2rem 4rem;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#intro > * {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+#intro img {
+  margin: 4rem;
+  max-width: 800px;
+}
+
+#intro .headline {
+  color: #ffffff;
+  text-align: left;
+  max-width: 800px;
+}
+
+#intro p {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+#nav {
+  background: moccasin;
+  padding: 2rem 4rem;
+}
+
+#deadlines {
+  background: sandybrown;
+  padding: 2rem 4rem;
+}
+
+ul.buttons {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto;
+  width: 60%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+ul.buttons li {
+  margin: 0 auto 1.5rem auto;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 1 1 calc(100% - 50px);
+  -ms-flex: 1 1 calc(100% - 50px);
+  flex: 1 1 500px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+}
+
+ul.buttons li a {
+  width: 100%;
+  color: #ffffff;
+  background-color: #34495e;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+
+     -webkit-font-feature-settings: 'liga' 1;
+    font-feature-settings: 'liga' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-stretch: condensed;
+    font-style: normal;
+    letter-spacing: -.5px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 40px;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 0.2s;
+    transition-property: box-shadow;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    /* -webkit-transition: background-color 0.2s ease, color 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    -webkit-box-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 0 rgba(0,0,0,0.2); */
+    overflow: hidden;
+}
+
+ul.buttons li a:hover {
+    -webkit-box-shadow: 7px 7px 0.3;
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+ul.buttons li a:active {
+  -webkit-transform: translate(7px, 7px);
+    transform: translate(7px, 7px);
+    -webkit-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+
+#vote {
+  background: dodgerblue;
+  padding: 2rem 4rem;
+}
+
+
+
+
+
+
+
